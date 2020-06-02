@@ -12,18 +12,16 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
-DESCRIPTION = 'My short description for my project.'
-URL = 'https://github.com/me/myproject'
-EMAIL = 'me@example.com'
-AUTHOR = 'Awesome Soul'
+NAME = 'dbexport'
+DESCRIPTION = 'Internal library for interactinf with a Products and Review database'
+URL = 'https://github.com/Jenny22294/dbexport.git'
+EMAIL = 'jenny22294@gmail.com'
+AUTHOR = 'Jenny'
 REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '0.1.0'
 
 # What packages are required for this module to be executed?
-REQUIRED = [
-    # 'requests', 'maya', 'records',
-]
+REQUIRED = ["SQLAlchemy", "psycopg2-binary"]
 
 # What packages are optional?
 EXTRAS = {
